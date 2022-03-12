@@ -50,11 +50,11 @@ const AppHeader = () => {
                     </ul>
 
                     <ul className="nav-menu nav-menu-social align-to-right">
-                        <li>
-                            <a href="#" data-toggle="modal" data-target="#login" className="ft-medium">
-                                    <i className="fa fa-user mr-2"></i>Sign In
-                                </a>
-                        </li>
+                      
+                        <li onClick={()=>handleOpen()}>
+                               <AiOutlineUser/> 
+                         </li>
+                       
                         <li className="add-listing theme-bg">
                             <a href="https://forms.gle/oqw5rUs92AfenhbM8">
                                     <i className="fa fa-circle-plus mr-1"></i> Post a Task
