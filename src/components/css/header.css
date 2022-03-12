@@ -1,0 +1,18 @@
+@media screen and (max-width:990px) {
+    .nav-menu{
+        display: none;
+    }
+   .header{
+       padding-bottom: 10px;
+       padding-top: 10px;
+   }
+   #mobile_nav{
+    margin-left: auto;
+    }
+}
+
+@media screen and(max-width:768px) {
+    #mobile_nav{
+        margin-left: 100px !important;
+    }
+}
