@@ -43,7 +43,7 @@ const Banner = () => {
                                 <div className="row align-items-center">
                                     <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                                         <div className="dro_140">
-                                            <div className="dro_141 de"><i className="fa fa-journal-whills"></i></div>
+                                            <div className="dro_141 de"><i className="fa fa-book"></i></div>
                                             <div className="dro_142">
                                                 <h6>500+ Active tasks</h6>
                                                 <p>Numerous task requests in different categories patiently waiting to be fulfilled.</p>
@@ -52,7 +52,7 @@ const Banner = () => {
                                     </div>
                                     <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                                         <div className="dro_140">
-                                            <div className="dro_141 de"><i className="fa fa-business-time"></i></div>
+                                            <div className="dro_141 de"><i className="fa fa-user-o"></i></div>
                                             <div className="dro_142">
                                                 <h6>150+ Freelancers</h6>
                                                 <p>Good number of verified expert freelancers waiting to pickup their next gig.</p>
@@ -61,7 +61,7 @@ const Banner = () => {
                                     </div>
                                     <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                                         <div className="dro_140">
-                                            <div className="dro_141 de"><i className="fa fa-user-shield"></i></div>
+                                            <div className="dro_141 de"><i className="fa fa-user"></i></div>
                                             <div className="dro_142">
                                                 <h6>80+ Task Providers</h6>
                                                 <p>Companies and busy Individuals outsouring their tasks on a daily basis.</p>

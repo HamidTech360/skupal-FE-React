@@ -18,8 +18,8 @@ const DownloadApp = () => {
                                         <p>Seemlesly search for various tasks, apply, track and receive payments for completed tasks in our Android & iOS apps.</p>
                                     </div>
                                     <div className="btn-box clearfix mt-5">
-                                        <a href="index.html" className="download-btn play-store mb-1 d-inline-flex"><img src="assets/img/ios.png" width="200" alt="" /></a>
-                                        <a href="index.html" className="download-btn play-store ml-2 mb-1 d-inline-flex"><img src="assets/img/and.png" width="200" alt="" /></a>
+                                        <a href="index.html" className="download-btn play-store mb-1 d-inline-flex"><img src="../../../assets/ios.png" width="200" alt="" /></a>
+                                        <a href="index.html" className="download-btn play-store ml-2 mb-1 d-inline-flex"><img src="../../../assets/and.png" width="200" alt="" /></a>
                                     </div>
                                 </div>
                             </div>

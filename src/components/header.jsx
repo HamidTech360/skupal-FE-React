@@ -2,10 +2,30 @@ import React, {useState} from 'react';
 import { Modal } from '@material-ui/core';
 import { Link } from 'react-router-dom';
 import {AiOutlineUser, AiOutlineMenu} from 'react-icons/ai'
+import SwipeableSideNav from './side-drawer';
 
 import './css/header.css'
 
 const AppHeader = () => {
+    const navOptions = [
+        {
+            label:'Home',
+            link:'/'
+        },
+        {
+            label:'Find Task (Join Waitlist)',
+            link:'https://forms.gle/vBFKtxMf7fJC5fZZ9',
+            href:true
+        },
+        {
+            label:'About Us',
+            link:'/about'
+        },
+        {
+            label:'Contact',
+            link:'/contact-us'
+        }
+    ]
     const [open, setOpen] = useState(false)
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
@@ -17,7 +37,9 @@ const AppHeader = () => {
         <div className="container">
             <nav id="navigation" className="navigation navigation-landscape">
                 <div className="nav-header">
-                    <AiOutlineMenu size={25}/>
+                    <span className="hideOnDesktop">
+                    <SwipeableSideNav position="left" navOptions={navOptions} />
+                    </span>
                     <span className="nav-brand"><img src="../assets/logo.png" className="logo" alt="" /></span>
                     <span className="mobile_nav pull-right" id="mobile_nav">
                         <ul className='pull-right'>
@@ -45,7 +67,7 @@ const AppHeader = () => {
 
                         <li><Link to="/about">About Us</Link>
                         </li>
-                        <li><Link to="/contact">Contact</Link></li>
+                        <li><Link to="/contact-us">Contact</Link></li>
 
                     </ul>
 

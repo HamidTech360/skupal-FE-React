@@ -14,6 +14,7 @@ import 'bootstrap/dist/js/bootstrap.bundle'
 import 'font-awesome/css/font-awesome.css';
 
 import '../../styles/styles.css'
+import './css/home.css'
 
 
 const Home = () => {

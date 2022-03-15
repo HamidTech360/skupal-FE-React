@@ -1,0 +1,12 @@
+.menu-list-item{
+    padding: 7px;
+    padding-left: 30px;
+    border-bottom: 1px solid whitesmoke;
+    font-size: 15px;
+}
+.menu-lists{
+    padding-right: 40px;
+}
+.close-icon{
+    margin:  auto;
+}
